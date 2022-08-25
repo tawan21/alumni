@@ -3,21 +3,21 @@ import Link from 'next/link'
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg bg-light">
+            <div className="container-fluid">
                 <Link href="/">
-                <a class="navbar-brand">Alumni</a></Link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a className="navbar-brand">Alumni</a></Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <Link href="/"><a class="nav-link" aria-current="page">Login</a></Link>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link href="/"><a className="nav-link" aria-current="page">Login</a></Link>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link href="/Signup">
-                                <a class="nav-link">Signup</a>
+                                <a className="nav-link">Signup</a>
                             </Link>
                         </li>
                     </ul>
